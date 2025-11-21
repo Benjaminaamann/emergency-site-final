@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="da">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>APE INVASION - Indberet</title>
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/fonts.css" />
+    <link rel="stylesheet" href="css/general.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/burger.css" />
+    <link rel="stylesheet" href="css/indberet.css" />
+    <link rel="stylesheet" href="css/dark-mode.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+  </head>
+  <body>
+    <!-- Header -->
+    <header class="site-header">
+      <div class="header-container">
+        <div class="logo-container">
+          <img
+            src="../images/ape-invasion-logo.svg"
+            alt="APE INVASION Logo"
+            class="site-logo"
+          />
+          <h1 class="site-title">APE INVASION !!!</h1>
+        </div>
+        <div class="burger-menu">
+          <div class="burger-icon">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+        </div>
+        <!-- Dark Mode Switch -->
+        <div class="dark-mode-toggle">
+          <input
+            type="checkbox"
+            id="darkModeSwitch"
+            class="dark-mode-checkbox"
+          />
+          <label for="darkModeSwitch" class="dark-mode-label">
+            <span class="toggle-slider"></span>
+          </label>
+        </div>
+        <nav class="main-nav">
+          <ul>
+            <li>
+              <a href="index.html" class="nav-link"
+                ><i class="fas fa-home"></i> Forside
+                <i class="fas fa-chevron-right"></i
+              ></a>
+            </li>
+            <li>
+              <a href="instruction.html" class="nav-link"
+                ><i class="fas fa-exclamation-triangle"></i> Nærkontakt
+                <i class="fas fa-chevron-right"></i
+              ></a>
+            </li>
+            <li>
+              <a href="register.html" class="nav-link active"
+                ><i class="fas fa-clipboard-list"></i> Indberet
+                <i class="fas fa-chevron-right"></i
+              ></a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+      <div class="container">
+        <div class="content-wrapper">
+          <!-- Left Column -->
+          <div class="left-column">
+            <!-- Infographic Box -->
+            <div class="info-box">
+              <div class="box-content">
+                <h2 class="box-title">Abernes Evolution</h2>
+                <p class="box-description">
+                  Udforsk hvordan aberne har udviklet sig fra almindelige
+                  primater til superintelligente væsener gennem en detaljeret
+                  infografik.
+                </p>
+                <a href="instruction.html" class="btn primary-btn"
+                  >Se infografik</a
+                >
+              </div>
+            </div>
+
+            <!-- Form Box -->
+            <div class="info-box">
+              <div class="box-content">
+                <h2 class="box-title">Rapporter Abe-Aktivitet</h2>
+                <p class="box-description">
+                  Har du observeret mistænkelig abe-aktivitet i dit område?
+                  Udfyld vores formular og hjælp med at kortlægge invasionen.
+                </p>
+                <a href="register.html" class="btn primary-btn"
+                  >Gå til formular</a
+                >
+              </div>
+            </div>
+          </div>
+
+          <!-- Right Column -->
+          <div class="right-column">
+            <!-- Article 1 -->
+            <article class="article-box">
+              <div class="article-image">
+                <!--Dette er et billede jeg har ai generedet af aber der overtager en by-->
+                <img
+                  src="https://a.lovart.ai/artifacts/agent/LtzIH0dBNfbysM2V.png"
+                  alt="Abernes Overtagelse"
+                />
+              </div>
+              <div class="article-content">
+                <h2 class="article-title">Abernes Overtagelse</h2>
+                <p class="article-excerpt">
+                  Hvordan superintelligente aber gradvist har overtaget
+                  kontrollen over større byer og infrastruktur...
+                </p>
+                <button
+                  class="btn secondary-btn read-more"
+                  data-article="article1"
+                >
+                  Læs mere
+                </button>
+              </div>
+              <!-- Hidden full content for modal -->
+              <div id="article1-content" class="hidden-content">
+                <h2>Abernes Overtagelse</h2>
+                <img
+                  src="https://a.lovart.ai/artifacts/agent/LtzIH0dBNfbysM2V.png"
+                  alt="Abernes Overtagelse"
+                  class="modal-image"
+                />
+                <p>
+                  I løbet af de seneste fem år har vi været vidne til en
+                  gradvis, men ubønhørlig overtagelse af vores største byer af
+                  superintelligente aber. Det begyndte med små kolonier i
+                  udkanten af byerne, hvor grupper af aber etablerede primitive,
+                  men bemærkelsesværdigt velorganiserede samfund.
+                </p>
+                <p>
+                  Efterhånden som deres intelligens og teknologiske færdigheder
+                  udviklede sig, begyndte de at infiltrere byernes
+                  infrastruktur. Først overtog de forladte bygninger, senere
+                  hele kvarterer. I dag kontrollerer de flere af vores største
+                  metropoler, hvor de har etableret avancerede samfund med egen
+                  regering, tekn.
+                </p>
+                <p>
+                  Videnskabsfolk mener, at deres accelererede evolution skyldes
+                  en kombination af miljøfaktorer og eksponering for
+                  menneskeskabt teknologi. Deres hjerner har udviklet sig til at
+                  behandle information på måder, der overgår selv vores mest
+                  avancerede kunstige intelligens.
+                </p>
+                <p>
+                  Myndighederne opfordrer til ro og samarbejde. Forsøg på
+                  militær intervention har vist sig ineffektive og har kun ført
+                  til øget fjendtlighed. I stedet arbejdes der nu på
+                  diplomatiske løsninger for at sikre fredelig sameksistens
+                  mellem mennesker og de nye superintelligente aber.
+                </p>
+              </div>
+            </article>
+
+            <!-- Article 2 -->
+            <article class="article-box">
+              <div class="article-image">
+                <img
+                  src="https://a.lovart.ai/artifacts/agent/DM4Uefqmysnig0jG.png"
+                  alt="Teknologiske Aber"
+                />
+              </div>
+              <div class="article-content">
+                <h2 class="article-title">Teknologiske Aber</h2>
+                <p class="article-excerpt">
+                  Abernes forbløffende teknologiske fremskridt og hvordan de har
+                  forbedret eksisterende menneskelig teknologi...
+                </p>
+                <button
+                  class="btn secondary-btn read-more"
+                  data-article="article2"
+                >
+                  Læs mere
+                </button>
+              </div>
+              <!-- Hidden full content for modal -->
+              <div id="article2-content" class="hidden-content">
+                <h2>Teknologiske Aber</h2>
+                <img
+                  src="https://a.lovart.ai/artifacts/agent/DM4Uefqmysnig0jG.png"
+                  alt="Teknologiske Aber"
+                  class="modal-image"
+                />
+                <p>
+                  Det mest forbløffende aspekt af abernes evolution er deres
+                  evne til ikke bare at bruge, men at forbedre menneskeskabt
+                  teknologi. Hvad der begyndte med simpel brug af fundne
+                  smartphones og tablets, har udviklet sig til en komplet
+                  teknologisk revolution.
+                </p>
+                <p>
+                  Aberne har udviklet deres egne operativsystemer, som er
+                  optimeret til deres kognitive processer. Disse systemer er så
+                  effektive, at flere tech-giganter har forsøgt at rekruttere
+                  abe-ingeniører til deres forsknings- og udviklingsafdelinger.
+                </p>
+                <p>
+                  Særligt bemærkelsesværdigt er deres fremskridt inden for
+                  bæredygtig energi. Ved at kombinere solcelleteknologi med
+                  biomekaniske systemer har de skabt energiløsninger, der er op
+                  til 300% mere effektive end vores mest avancerede systemer.
+                </p>
+                <p>
+                  Deres kommunikationsteknologi er ligeledes revolutionerende.
+                  De har udviklet et system, der kombinerer gestus, vokalisering
+                  og digital transmission, hvilket muliggør næsten øjeblikkelig
+                  og nuanceret kommunikation over store afstande.
+                </p>
+                <p>
+                  Forskere advarer om, at hvis denne teknologiske udvikling
+                  fortsætter i samme tempo, vil aberne inden for få år have et
+                  teknologisk forspring, der kan være umuligt for menneskeheden
+                  at indhente.
+                </p>
+              </div>
+            </article>
+
+            <!-- Article 3 -->
+            <article class="article-box">
+              <div class="article-image">
+                <img
+                  src="https://a.lovart.ai/artifacts/agent/pjfaCsAEbhBb6oNo.png"
+                  alt="Sameksistens"
+                />
+              </div>
+              <div class="article-content">
+                <h2 class="article-title">Sameksistens</h2>
+                <p class="article-excerpt">
+                  Strategier for fredelig sameksistens mellem mennesker og
+                  superintelligente aber i den nye verdensorden...
+                </p>
+                <button
+                  class="btn secondary-btn read-more"
+                  data-article="article3"
+                >
+                  Læs mere
+                </button>
+              </div>
+              <!-- Hidden full content for modal -->
+              <div id="article3-content" class="hidden-content">
+                <h2>Sameksistens</h2>
+                <img
+                  src="https://a.lovart.ai/artifacts/agent/pjfaCsAEbhBb6oNo.png"
+                  alt="Sameksistens"
+                  class="modal-image"
+                />
+                <p>
+                  Efter de indledende konflikter og spændinger er der nu
+                  fremskridt i etableringen af fredelig sameksistens mellem
+                  mennesker og superintelligente aber. Flere byer har
+                  implementeret "delt governance"-modeller, hvor
+                  beslutningsprocesser inkluderer repræsentanter fra begge
+                  arter.
+                </p>
+                <p>
+                  Disse samarbejdsmodeller har vist sig særligt succesfulde i
+                  områder som miljøbeskyttelse og byplanlægning, hvor abernes
+                  unikke perspektiv og teknologiske innovationer har ført til
+                  bæredygtige løsninger, der gavner alle.
+                </p>
+                <p>
+                  Uddannelsessystemet er også under forandring. Integrerede
+                  skoler, hvor menneske- og abebørn lærer side om side, er
+                  blevet etableret i flere regioner. Disse skoler fokuserer på
+                  at udvikle fælles kommunikationsevner og kulturel forståelse.
+                </p>
+                <p>
+                  Økonomisk integration er ligeledes i gang. Aber deltager nu i
+                  arbejdsmarkedet, primært inden for teknologi, forskning og
+                  kreative industrier. Deres unikke kognitive evner har vist sig
+                  værdifulde i kompleks problemløsning og innovation.
+                </p>
+                <p>
+                  Udfordringer består dog stadig, særligt omkring
+                  ressourcefordeling og kulturelle forskelle. Eksperter
+                  anbefaler fortsat dialog og gensidig respekt som nøglen til
+                  langsigtet harmoni mellem vores arter.
+                </p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <!-- Modal -->
+    <div id="article-modal" class="modal">
+      <div class="modal-content">
+        <span class="close-button">&times;</span>
+        <div id="modal-body"></div>
+      </div>
+    </div>
+
+    <script src="js/script.js"></script>
+    <script src="js/dark-mode.js"></script>
+  </body>
+</html>
